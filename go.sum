@@ -1,4 +1,2 @@
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
-github.com/patalwell/palwell-distributed-services v0.0.0-20211120210657-c288f21cd7d2 h1:ynvEzYTfZ1PwXf7oJK3IGOO1wKGjv71rb2xYKJz9PPY=
-github.com/patalwell/palwell-distributed-services v0.0.0-20211120210657-c288f21cd7d2/go.mod h1:BuIbtDh0z0sK1GKqIclY9X3eSr9HD9GEfWzwx+99ngU=

@@ -12,8 +12,8 @@ Jeffery, Travis. Distributed Services with Go (p. 26). Pragmatic Bookshelf.
 import (
 	"encoding/json"
 	"fmt"
-	"net/http"
 	"github.com/gorilla/mux"
+	"net/http"
 )
 
 func NewHttpServer(addr string) *http.Server {
@@ -54,7 +54,7 @@ type ConsumeResponse struct {
 	Record Record `json:"record"`
 }
 
-
+//create Log commit entry
 func (s *httpServer) handleProduce(w http.ResponseWriter, r *http.Request) {
 	var req ProduceRequest
 	err := json.NewDecoder(r.Body).Decode(&req)
@@ -75,7 +75,7 @@ func (s *httpServer) handleProduce(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-
+//fetch log commit entry
 func (s *httpServer) handleConsume(w http.ResponseWriter, r *http.Request) {
 	var req ConsumeRequest
 	err := json.NewDecoder(r.Body).Decode(&req)
